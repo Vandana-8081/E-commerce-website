@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Robot", "sans-serif";
+}
+
+body {
+    background-color: #eeccccee;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 22px;
+    box-shadow: 0px 2px 2px #919090;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li #home {
+    color: rgb(16, 236, 163);
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul {
+    margin-left: 45px;
+}
+
+nav.logo {
+    margin-right: 22px;
+    font-size: 22px;
+}
+
+ul li {
+    margin-inline: 22px;
+    font-size: 20px;
+}
+
+ul li a {
+    margin-inline: 22px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main.mainText {
+    margin-top: 144px;
+    font-size: 24px;
+}
+
+.mainText h1 {
+    font-size: 64px;
+}
+
+.mainText .top {
+    color: rgb(4, 145, 145);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    color: black;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.mainText {
+    margin-top: 12px;
+}
+
+.main img {
+    /* height: 100px; */
+    width: 500px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+.main img:hover{
+    width: 550px;
+
+}
+
+.mainText button:hover {
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+.trend .head {
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+}
+
+.trends .heads {
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+}
+
+.trends .heads span {
+    color: rgb(4, 104, 104);
+}
+
+.head span {
+    color: rgb(4, 104, 104);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card .crd {
+    height: 370px;
+    width: 300px;
+    background-color: rgb(255, 254, 254);
+    margin-inline: 11px;
+}
+
+.crd img {
+    width: 50%;
+    padding: 22px;
+    border-radius: 31px;
+}
+.card .crd:hover{
+    height: 400px;
+    width:350px ;
+    border: 2px solid lightgray;
+
+}
+
+.crdText {
+    margin-left: 11px;
+    padding: 8px;
+}
+.crdText i{
+    color: gold;
+}
+
+.crd button {
+    width: 110px;
+    height: 33px;
+    background-color: aqua;
+    color: black;
+    font-size: 19px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 22px;
+    margin-left: 22px;
+    border-radius: 5px;
+   
+}
+.crd button:hover{
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-inline: 22px;
+    border-radius: 11px;
+
+}
+
+.blog:hover {
+    transition: 0.6 ease;
+    width: 600px;
+    height: 350px;
+}
+
+.blog img {
+    padding: 22px;
+
+}
+
+.blogText {
+    padding: 12px;
+    margin-top: 33px;
+}
+
+.blogText a {
+    width: 120px;
+    background-color: aqua;
+    color: white;
+    font-size: 18px;
+    padding: 2px;
+    height: 15px;
+    border-radius: 5px;
+    top: 33px;
+    /* margin-top: 22px; */
+    position: relative;
+
+}
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 6, 109);
+    padding: 43px;
+}
+
+.letterText {
+    color: white;
+}
+
+.inp {
+    display: flex;
+}
+
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+}
+
+.inp button {
+    width: 100px;
+    height: 34px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+    background-color: black;
+    color: white;
+}
+
+.footer .footerText {
+    margin-inline: 85px;
+}
+
+.footerText {
+    margin-top: 11px;
+}
+
+/* about */
+.about {
+    display: none;
+}
+
+.aboutus {
+    background-color: rgb(16, 16, 129);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background-color: white;
+    padding: 33px;
+    margin-left: 18%;
+    margin-top: 5%;
+
+}
+
+.me img {
+    width: 400px;
+}
+
+/* contact */
+
+.contact {
+    display: none;
+}
+
+.contactus {
+    background-color: rgb(15, 15, 80);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.contactme {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+
+.contactme img {
+    width: 60%;
+    height: 300px;
+}
+
+.contactText {
+    padding: 22px;
+    width: 600px;
+}
+
+.contactText p {
+    margin-top: 12px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+    padding: 22px;
+}
+
+.form input {
+    width: 300px;
+    padding: 5px;
+    height: 22px;
+    margin-top: 11px;
+    font-size: 20px;
+
+}
+
+.form button {
+    width: 150px;
+    height: 36px;
+    background-color: rgb(2, 39, 39);
+    font-size: 22px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.cart img {
+    width: 350px;
+    margin-top: 42px;
+}
+
+.cartText {
+    padding: 22px;
+    margin-top: 22px;
+}
+
+.cartText p {
+    margin-top: 12px;
+}
+
+.cartText h2 {
+    margin-top: 11px;
+}
+
+.cartText .btn button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+.cartText .back {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(4, 82, 82);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+
+}
