@@ -1,1 +1,1 @@
-# I have developed simple e-commerce website using html scc and js
+ I have developed simple e-commerce website using html css and js
